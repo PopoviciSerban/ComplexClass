@@ -55,10 +55,10 @@ namespace NumereComplexe
             return x;
         }
 
-        public void Trigonometric_Form(Complex a)
+        public void Trigonometric_Form()
         {
-            double r = Math.Sqrt(a.real * a.real + a.imaginary * a.imaginary);
-            double teta = Math.Atan(a.imaginary / a.real);
+            double r = Math.Sqrt(real * real + imaginary * imaginary);
+            double teta = Math.Atan(imaginary / real);
 
             Console.WriteLine("Trigonometric form of the complex number is {0} * ({1} + i * {2})", r, Math.Cos(teta), Math.Sin(teta));
         }
